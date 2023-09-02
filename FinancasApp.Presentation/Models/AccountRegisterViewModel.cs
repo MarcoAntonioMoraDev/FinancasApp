@@ -26,5 +26,3 @@ namespace FinancasApp.Presentation.Models
         public string SenhaConfirmacao { get; set; }
     }
 }
-
-

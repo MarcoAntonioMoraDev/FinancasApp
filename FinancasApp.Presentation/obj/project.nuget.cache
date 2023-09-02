@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PrzfYiXu7yMIzFPo0qZT3xWmzQYCCyqykxRsVhUspeGz7BtrDbzrw0u71aWHXBZKihCEdd1qwD0OZlJIxK7TrA==",
+  "dgSpecHash": "hwSzJmoXSAvI9mnlP6ivpnXs1IGVss/ZPj4oRqxD+ET311MVmggWy+L3P7DU47H2Wh1BZb96h2WQcsUpyaaCKA==",
   "success": true,
   "projectFilePath": "C:\\COTI\\Aula 07\\FinancasApp\\FinancasApp.Presentation\\FinancasApp.Presentation.csproj",
   "expectedPackageFiles": [
@@ -37,6 +37,7 @@
     "C:\\Users\\marco\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\marco\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",

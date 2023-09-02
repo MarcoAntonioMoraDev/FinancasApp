@@ -68,3 +68,4 @@ C:\COTI\Aula 07\FinancasApp\FinancasApp.Presentation\bin\Debug\net7.0\runtimes\w
 C:\COTI\Aula 07\FinancasApp\FinancasApp.Presentation\bin\Debug\net7.0\FinancasApp.Data.dll
 C:\COTI\Aula 07\FinancasApp\FinancasApp.Presentation\bin\Debug\net7.0\FinancasApp.Data.pdb
 C:\COTI\Aula 07\FinancasApp\FinancasApp.Presentation\obj\Debug\net7.0\FinancasApp.Presentation.csproj.CopyComplete
+C:\COTI\Aula 07\FinancasApp\FinancasApp.Presentation\bin\Debug\net7.0\Newtonsoft.Json.dll
