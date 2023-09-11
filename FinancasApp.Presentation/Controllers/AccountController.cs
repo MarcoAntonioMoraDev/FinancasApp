@@ -158,10 +158,14 @@ namespace FinancasApp.Presentation.Controllers
             //apagar o cookie de autenticação gravado no navegador
             HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
 
+            //apagar todos os dados salvos em sessão
+            HttpContext.Session.Clear();
+
             //redirecionar o usuário para a página de login
             return RedirectToAction("Login");
         }
     }
 }
+
 
 

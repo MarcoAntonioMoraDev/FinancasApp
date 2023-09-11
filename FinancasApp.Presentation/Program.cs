@@ -15,6 +15,9 @@ builder.Services.AddAuthentication
     (CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie();
 
+//Habilitando o uso de sessões no projeto
+builder.Services.AddSession();
+
 var app = builder.Build();
 
 if (!app.Environment.IsDevelopment())
@@ -31,6 +34,9 @@ app.UseCookiePolicy(); //habilitando Cookies
 app.UseAuthentication(); //habilitando Autenticação
 app.UseAuthorization(); //habilitando Autorização
 
+//Habilitando o uso de sessões no projeto
+app.UseSession();
+
 /*
  * Definindo o padrão de navegação do projeto /Controller/View
  * e a página inicial que será aberta ao acessar o sistema
@@ -40,5 +46,6 @@ app.MapControllerRoute(
     pattern: "{controller=Account}/{action=Login}/{id?}");
 
 app.Run();
+
 
 

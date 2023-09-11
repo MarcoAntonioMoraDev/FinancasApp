@@ -4,14 +4,16 @@ using System.ComponentModel.DataAnnotations;
 namespace FinancasApp.Presentation.Models
 {
     /// <summary>
-    /// Modelo de dados do formulário da página /Contas/Cadastro
+    /// Modelo de dados do formulário da página /Contas/Edicao
     /// </summary>
-    public class ContasCadastroViewModel
+    public class ContasEdicaoViewModel
     {
+        public Guid Id { get; set; } //campo oculto na página
+
         [MaxLength(150, ErrorMessage = "Por favor, informe no máximo {1} caracteres.")]
         [MinLength(8, ErrorMessage = "Por favor, informe no mínimo {1} caracteres.")]
         [Required(ErrorMessage = "Por favor, informe o nome da conta.")]
-        public string Nome { get; set; }
+        public string? Nome { get; set; }
 
         [Required(ErrorMessage = "Por favor, informe a data da conta.")]
         public DateTime? Data { get; set; }
@@ -22,7 +24,7 @@ namespace FinancasApp.Presentation.Models
         [MaxLength(250, ErrorMessage = "Por favor, informe no máximo {1} caracteres.")]
         [MinLength(8, ErrorMessage = "Por favor, informe no mínimo {1} caracteres.")]
         [Required(ErrorMessage = "Por favor, informe as observações da conta.")]
-        public string Observacoes { get; set; }
+        public string? Observacoes { get; set; }
 
         [Required(ErrorMessage = "Por favor, selecione o tipo da conta.")]
         public int? Tipo { get; set; }
@@ -36,3 +38,5 @@ namespace FinancasApp.Presentation.Models
         public List<SelectListItem>? ListagemCategorias { get; set; }
     }
 }
+
+
